@@ -42,9 +42,9 @@ li{
     color: black;
   }
 
-  .nav > li > a:hover { 
-    color: rgb(240, 6, 228;
-  }
+.nav > li > a:hover {
+  color: rgb(240, 12, 240);
+}
 
  h1{
   color:black;
