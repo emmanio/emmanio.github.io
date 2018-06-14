@@ -42,6 +42,10 @@ li{
     color: black;
   }
 
+  .nav > li > a:hover { 
+    color: rgb(240, 6, 228);
+  }
+
  h1{
   color:black;
   font-family: 'Open Sans', sans-serif;;
@@ -91,6 +95,3 @@ p{
   margin-left: 30px;
 }
 
-.nav > li > a:hover { 
-  color: rgb(240, 6, 228);
-}
