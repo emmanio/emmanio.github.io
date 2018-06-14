@@ -43,7 +43,7 @@ li{
   }
 
   .nav > li > a:hover { 
-    color: rgb(240, 6, 228);
+    color: pink;
   }
 
  h1{
@@ -94,11 +94,3 @@ p{
   line-height: 1.7;
   margin-left: 30px;
 }
-
-<<<<<<< HEAD
-=======
-.nav > li > a:hover { 
-  color: rgb(240, 6, 228);
-}
-
->>>>>>> 05b8412d76ebf6c52a8c02d31f30ed5e92ab6474
