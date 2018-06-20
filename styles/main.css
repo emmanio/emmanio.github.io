@@ -34,7 +34,7 @@ li{
   
   .nav > li {
     display: inline-block;
-    padding: 0 25px 0 25px;
+    
   }
   
   .nav > li > a {
@@ -81,6 +81,7 @@ h4{
 }
 
 
+
 p{
   color:darkslategrey;
   font-family: 'Open Sans', sans-serif;
@@ -91,6 +92,14 @@ p{
   padding-right: 30px;
   text-align: justify;
 }
+
+.chapter-heading {
+  font-size:17px;
+  font-weight:bold;
+  color: black;
+  font-style: italic;
+}
+
 
 #container{
   background-color: transparent;
