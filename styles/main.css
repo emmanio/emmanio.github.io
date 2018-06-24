@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Open Sans', sans-serif;
   src: font-weight: normal;
@@ -13,21 +14,15 @@
   margin-left: auto;
 }
 
-.seven:first-child, .eight:first-child, .nine:first-child, .ten:first-child, .eleven:first-child, .twelve:first-child, .five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
-  margin-left:0%;
-
-}
-
 /* NAVIGATION BAR */
-
 
 li{
   display: inline;
     color:black;
     text-align: center;
-    padding: 10px 16px;
+    padding: 3rem 2rem;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1em;
   }
   
   .nav {
@@ -35,8 +30,8 @@ li{
     color: black;
     list-style:none;
     text-align: center;
-    padding: 20px 0 20px 0;
-    margin-top: 40px;
+    padding: 1.25rem 0 1.25rem 0;
+    margin-top: 2.5rem;
     float: center;
   }
   
@@ -55,121 +50,82 @@ ul li a:hover {
   color: rgb(240, 12, 240);
 }
 
-
-h1{
+h1 {
   color:black;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-align: center;
-  font-size:40px;
+  font-size: 4.5rem;
   padding-bottom: 0;
+  padding-top: 8rem;
+  margin:auto;
+}
+
+/* BODY */
+
+.post1 {
+  width:100%;
+  height:100%;
+}
+
+.post2 { 
+  width:100%;
+  height:100%;
+}
+
+.post3 {
+  width:100%;
+  height:100%
+}
+
+.post4 {
+  width:100%;
+  height:100%
+}
+
+.post5 {
+  width:100%;
+  height:100%
 }
 
 h2 {
-  text-align: left;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  margin: auto;
+  display: inline;
+  text-align: center;
 
 }
 
-h3 {
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  font-weight: lighter;
-  color: grey;
-
-}
-p {
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  color: grey;
-  font-weight: lighter;
-}
-
-header {
+.left {
+  text-align: center;
   background-color: transparent;
-  height:9rem;
 }
 
-
-/* COLUMNS */
-.one {
-  width: 6.5%;
-  float:left;
-  margin-left:2%;
+.right {
+  text-align: center;
+  background-color: transparent;
+  padding-bottom: 20px;
 }
 
-.two {
-  width: 15%;
-  float:left;
-  margin-left:2%;
+.middle {
+  text-align: center;
+  background-color: transparent;
+
 }
 
-.three {
-  width: 23.5%;
-  float: left;
-  margin-left:2%;
-  background-color: aquamarine;
+/* ROWS */
+
+.row3{
+  padding-top:8rem;
+  padding-bottom: 8rem;
 }
 
-.four {
-  width: 32%;
-  float:left;
-  margin-left:2%;
-}
+/* Button Style */
 
-.five {
-  width: 40.5%;
-  float:left;
-  margin-left:2%;
-}
-
-.six{
-  width: 49%;
-  float:left;
-  margin-left:2%;
-}
-
-.seven {
-  width: 57.5%;
-  float:left;
-  margin-left:2%;
-}
-
-.eight {
-  width: 66%;
-  float:left;
-  margin-left:2%;
-}
-
-.nine {
-  width: 74.5%;
-  float:left;
-  margin-left:2%;
-}
-
-.ten {
-  width: 83%;
-  float:left;
-  margin-left:2%;
-}
-
-.eleven {
-  width: 91.5%;
-  float:left;
-  margin-left:2%;
-}
-
-.twelve {
+button {
+  text-align: center;
   width: 100%;
-  float:left;
-  margin-left:2%;
+  height: 100%;
+  
+
 }
 
-.row2, .left {
-  background-color: black;
-}
