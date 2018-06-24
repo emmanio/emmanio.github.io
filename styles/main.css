@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: font-weight: normal;
+  font-style: normal;
+  
+}
+
+#container{
+  background-color: transparent;
+  height:900px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.seven:first-child, .eight:first-child, .nine:first-child, .ten:first-child, .eleven:first-child, .twelve:first-child, .five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+  margin-left:0%;
+
+}
+
+/* NAVIGATION BAR */
+
+
+li{
+  display: inline;
+    color:black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .nav {
+    background:transparent;
+    color: black;
+    list-style:none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 40px;
+    float: center;
+  }
+  
+  .nav > li {
+    display: inline-block;
+    
+  }
+  
+  .nav > li > a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+  }
+
+ul li a:hover {
+  color: rgb(240, 12, 240);
+}
+
+
+h1{
+  color:black;
+  font-family: 'Open Sans', sans-serif;;
+  font-weight: 600;
+  text-align: center;
+  font-size:40px;
+  padding-bottom: 0;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin: auto;
+
+}
+
+h3 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: grey;
+
+}
+p {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: grey;
+  font-weight: lighter;
+}
+
+header {
+  background-color: transparent;
+  height:9rem;
+}
+
+
+/* COLUMNS */
+.one {
+  width: 6.5%;
+  float:left;
+  margin-left:2%;
+}
+
+.two {
+  width: 15%;
+  float:left;
+  margin-left:2%;
+}
+
+.three {
+  width: 23.5%;
+  float: left;
+  margin-left:2%;
+  background-color: aquamarine;
+}
+
+.four {
+  width: 32%;
+  float:left;
+  margin-left:2%;
+}
+
+.five {
+  width: 40.5%;
+  float:left;
+  margin-left:2%;
+}
+
+.six{
+  width: 49%;
+  float:left;
+  margin-left:2%;
+}
+
+.seven {
+  width: 57.5%;
+  float:left;
+  margin-left:2%;
+}
+
+.eight {
+  width: 66%;
+  float:left;
+  margin-left:2%;
+}
+
+.nine {
+  width: 74.5%;
+  float:left;
+  margin-left:2%;
+}
+
+.ten {
+  width: 83%;
+  float:left;
+  margin-left:2%;
+}
+
+.eleven {
+  width: 91.5%;
+  float:left;
+  margin-left:2%;
+}
+
+.twelve {
+  width: 100%;
+  float:left;
+  margin-left:2%;
+}
+
+.row2, .left {
+  background-color: black;
+}
