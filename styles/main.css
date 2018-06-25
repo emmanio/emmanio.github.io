@@ -92,8 +92,6 @@ h5 {
   text-align: center;
   font-size: 1.5rem;
   padding-bottom: 1rem;
-  margin:auto;
-
 }
 p{
   font-family: 'Open Sans', sans-serif;
@@ -106,6 +104,7 @@ p.blogtemplate {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
   line-height: 1.8em;
+  padding-bottom: 200px;
 }
 
 /* BODY */
@@ -143,13 +142,6 @@ p.blogtemplate {
   height:100%
 }
 
-.blogpost {
-  width:90%;
-  height:320px;
-  padding-bottom: 3rem;
-  padding-left: 30px;
-}
-
 .left {
   text-align: center;
   background-color: transparent;
@@ -168,7 +160,6 @@ p.blogtemplate {
 
 /* ROWS */
 .row3{
-  padding-top:8rem;
   height:100%;
   width: 100%;
   overflow: hidden;  
@@ -187,19 +178,13 @@ p.blogtemplate {
   background-color: #F9DAFD;
   text-align: center;
 }
-.row6{
-  padding-top:8rem;
-  height:100%;
-  width: 100%;
-  overflow: hidden;  
-}
+
 
 /* BUTTON STYLE */
 button {
   text-align: center;
   width: 100%;
   height: 100%;
-
 }
 
 /* FOOTER */
@@ -208,7 +193,7 @@ h3{
   text-align: center;
   font-size: 1.6em;
   font-weight: 600;
-  float:center;
-  padding-bottom: 2em;
   color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
