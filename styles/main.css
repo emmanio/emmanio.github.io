@@ -115,7 +115,6 @@ p.blogtemplate {
   line-height: 1.8em;
 
 }
-
 /* BODY */
 .content {
   padding-top:4rem;
@@ -234,6 +233,8 @@ img {
   overflow: hidden;
 }
 
+/* Media Query for 768px */
+
 @media (max-width:768px){
 .nav{
   font-size: 12px;
@@ -260,7 +261,7 @@ img {
     margin-left: 0;
     font-size: 1.3rem;
     width: 100%;
-  }
+  
   }
   
   @media (max-width:768px){
@@ -277,8 +278,7 @@ img {
       font-size: 2.5rem;
     }
 
-    @media (max-width:768px){
-      .blog-content-img-container{
+  @media (max-width:768px){
+    .blog-content-img-container{
         display: none;
       }
-
