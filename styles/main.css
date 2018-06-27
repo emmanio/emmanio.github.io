@@ -166,6 +166,17 @@ p.blogtemplate {
   background-color: transparent;
 }
 
+.container-image {
+  margin-left: 43%;
+  margin-bottom: 20%;
+  padding-top: 4rem;
+}
+
+.cat {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 /* ROWS */
 .row3{
   height:100%;
@@ -183,7 +194,7 @@ p.blogtemplate {
   height:100%;
   width: 100%;
   overflow: hidden;
-  background-color: #F9DAFD;
+  border-top:solid rgb(255, 136, 0) 1px;
   text-align: center;
 }
 
