@@ -159,6 +159,7 @@ p.blogtemplate {
   text-align: center;
   background-color: transparent;
   padding-bottom: 20px;
+  
 }
 
 .middle {
@@ -172,10 +173,6 @@ p.blogtemplate {
   padding-top: 4rem;
 }
 
-.cat {
-  max-height: 100%;
-  max-width: 100%;
-}
 
 /* ROWS */
 .row3{
@@ -194,22 +191,29 @@ p.blogtemplate {
   height:100%;
   width: 100%;
   overflow: hidden;
-  border-top:solid rgb(255, 136, 0) 1px;
+  border-top:solid rgb(238, 115, 14) 1px;
   text-align: center;
 }
 
 
 /* BUTTON STYLE */
-button {
+.button {
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 100%;
+  position: inline;
+  background-color: rgb(248, 248, 248);
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+}
+a{
+  display: block;
 }
 a:link, a:visited {
   text-decoration: none;
-
+  color: grey; 
 }
-  
 
 
 /* FOOTER */
@@ -223,8 +227,7 @@ h3{
   margin-bottom: 10px;
 }
 
-/* THUMBNAIL */
-
+/* WIREFRAME IMAGES SPRINT3 */
 
 img {
   height: auto;
@@ -246,27 +249,30 @@ img {
 
 /* Media Query for 768px */
 
-@media (max-width:768px){
+@media only screen and (max-width: 768px) {
 .nav{
   font-size: 12px;
 }
 
-@media (max-width:768px){
+@media only screen and (max-width: 768px) {
   .container{
   flex-direction: column;
   padding: 4rem;
   margin: 0;
   margin-top: -5rem;
   }
-}
 
-  @media (max-width:768px){
-  .post1, .post2, .post3, .post4, .post5{
-    display:none;
+  @media only screen and (max-width: 768px) {
+    .row2, .row3 {
+    flex-direction: column;
   }
+
+@media only screen and (max-width: 768px) {
+  .post1, .post2, .post3, .post4, .post5{
+    display: none;
 }
 
-@media (max-width:768px){
+@media only screen and (max-width: 768px) {
   [class=content] {
     text-align: left justify;
     margin-left: 0;
@@ -274,22 +280,108 @@ img {
     width: 100%;
   
   }
+@media only screen and (max-width: 768px) {
+  h2 {
+    text-align: left;
+    margin-left: 0;
+    font-size: 2rem;
+    }
+
   
-  @media (max-width:768px){
-    h5 {
-      text-align: left;
-      margin-left: 0;
-      font-size: 1.3rem;
+  @media only screen and (max-width: 768px) {
+  h5 {
+    text-align: left;
+    margin-left: 0;
+    font-size: 1.3rem;
     }
 
-  @media (max-width:768px){
-    h4 {
-      text-align: left;
-      margin-left: 0;
-      font-size: 2.5rem;
+  @media only screen and (max-width: 768px) {
+  h4 {
+    text-align: left;
+    margin-left: 0;
+    font-size: 2.5rem;
     }
 
-  @media (max-width:768px){
-    .blog-content-img-container{
-        display: none;
+  @media only screen and (max-width: 768px) {
+  .blog-content-img-container{
+    flex-direction: column;
+    display: inline;
       }
+  
+  @media only screen and (max-width: 768px) {
+  p {
+    text-align: left justify;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    }
+
+  @media only screen and (max-width: 768px) {
+  .container-image {
+    display: none;
+      }
+
+/* Media Query for 600px */
+
+@media only screen and (max-width: 600px) {
+  .nav{
+    font-size: 12px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .container{
+    flex-direction: column;
+    padding: 4rem;
+    margin: 0;
+    margin-top: -5rem;
+    }
+
+  @media only screen and (min-width: 600px) {
+  .row2, .row3 {
+    flex-direction: column;
+    }
+  
+  @media only screen and (max-width: 600px) {
+  .post1, .post2, .post3, .post4, .post5{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  [class=content] {
+    text-align: left justify;
+    margin-left: 0;
+    font-size: 1.3rem;
+    width: 100%;
+    
+    }
+    
+  @media only screen and (max-width: 600px) {
+   h5 {
+    text-align: left;
+    margin-left: 0;
+    font-size: 1.3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+  h4 {
+    text-align: left;
+    margin-left: 0;
+    font-size: 2.5rem;
+  }
+  @media only screen and (max-width: 600px) {
+  p {
+    text-align: left justify;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+  .blog-content-img-container{
+    height:70%;
+    width: 70%;
+    flex-direction: column;
+    display: inline;
+        
+  }
+    
+  
