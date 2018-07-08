@@ -124,6 +124,14 @@ p.blogtemplate {
   margin-right: 100px;
 }
 
+div.a {
+  text-indent: 50px;
+}
+
+div.b {
+  text-indent: 80px;
+}
+
 /* IMAGE BOXES */
 .post1 {
   width:450px;
