@@ -41,8 +41,6 @@ li{
     color: black;
     list-style:none;
     text-align: center;
-    padding: 1.25rem 0 1.25rem 0;
-    margin-top: 2.5rem;
     float: center;
 
   }
@@ -60,8 +58,10 @@ li{
   }
 
 ul li a:hover {
-  color: rgb(240, 12, 240);
+  color: rgb(75, 73, 73);
 }
+
+
 
 /* TEXT ELEMENT STYLES */
 
@@ -107,6 +107,7 @@ p{
   text-align: left;
   color: grey;
   font-size: 1em;
+  
 }
 p.blogtemplate {
   color: rgb(20, 19, 19);
@@ -115,6 +116,8 @@ p.blogtemplate {
   line-height: 1.8em;
 
 }
+
+
 /* BODY */
 .content {
   padding-top:4rem;
@@ -136,28 +139,50 @@ div.b {
 .post1 {
   width:450px;
   height:300px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
 }
 
 .post2 { 
   width:450px;
   height:300px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
 }
 
 .post3 {
   width:100%;
-  height:100%
+  height:200px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
 }
 
 .post4 {
   width:100%;
-  height:100%
+  height:200px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
 }
 
 .post5 {
   width:100%;
-  height:100%
+  height:200px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
 }
 
+.post6 {
+  width:100%;
+  height:200px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
+}
+
+.post7 {
+  width:100%;
+  height:200px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
+}
+
+.post8 {
+  width:100%;
+  height:200px;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
+}
 .left {
   text-align: center;
   background-color: transparent;
@@ -187,6 +212,7 @@ div.b {
   height:100%;
   width: 100%;
   overflow: hidden;  
+
 }
 .row4{
   height:100%;
@@ -199,10 +225,9 @@ div.b {
   height:100%;
   width: 100%;
   overflow: hidden;
-  border-top:solid rgb(238, 115, 14) 1px;
   text-align: center;
+  background-color: rgb(238, 238, 238);
 }
-
 
 /* BUTTON STYLE */
 .button {
@@ -214,6 +239,7 @@ div.b {
   display: inline-block;
   border: none;
   font-size: 1rem;
+  box-shadow: 8px 8px 10px rgb(207, 207, 207);
 }
 a{
   display: block;
@@ -221,6 +247,16 @@ a{
 a:link, a:visited {
   text-decoration: none;
   color: grey; 
+}
+
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: rgb(212, 212, 212);
+  color: white;
 }
 
 
@@ -233,6 +269,7 @@ h3{
   color: grey;
   margin-top: 10px;
   margin-bottom: 10px;
+
 }
 
 /* IMAGES SPRINT3 */
@@ -255,6 +292,7 @@ img {
   overflow: hidden;
 }
 
+
 /* Media Query for 768px */
 
 @media only screen and (max-width: 768px) {
@@ -276,7 +314,7 @@ img {
   }
 
 @media only screen and (max-width: 768px) {
-  .post1, .post2, .post3, .post4, .post5{
+  .post1, .post2, .post3, .post4, .post5, .post6, .post7{
     display: none;
 }
 
