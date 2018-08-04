@@ -61,8 +61,6 @@ ul li a:hover {
   color: rgb(75, 73, 73);
 }
 
-
-
 /* TEXT ELEMENT STYLES */
 
 h1 {
@@ -238,6 +236,7 @@ div.b {
   box-shadow: 8px 8px 10px rgb(207, 207, 207);
   transition: transform linear 0.2s;
 }
+
 .post9:hover {
   transform: scale(1.1);
 }
@@ -281,8 +280,8 @@ div.b {
   height:100%;
   width: 100%;
   overflow: hidden;  
-
 }
+
 .row4{
   height:100%;
   width: 100%;
@@ -346,7 +345,7 @@ footer{
   width: 1300px;
 }
 
-/* IMAGES SPRINT3 */
+/* IMAGES*/
 
 img {
   height: auto;
@@ -366,6 +365,7 @@ img {
   overflow: hidden;
 }
 
+/* Projects Styling */
 
 /* Media Query for 768px */
 
