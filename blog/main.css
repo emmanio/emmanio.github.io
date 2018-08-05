@@ -369,12 +369,12 @@ img {
 
 /* Media Query for 768px */
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
 .nav{
   font-size: 12px;
 }
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
   .container{
   flex-direction: column;
   padding: 4rem;
@@ -382,17 +382,17 @@ img {
   margin-top: -5rem;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media(max-width: 768px) {
     .row1, .row2, .row3 {
     flex-direction: column;
   }
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
   .post1, .post2, .post3, .post4, .post5, .post6, .post7, .post8, .post9{
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
   [class=content] {
     text-align: left justify;
     margin-left: 0;
@@ -400,7 +400,7 @@ img {
     width: 100%;
   
   }
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
   h2 {
     text-align: left;
     margin-left: 0;
@@ -408,46 +408,46 @@ img {
     }
 
   
-  @media only screen and (max-width: 768px) {
+  @media(max-width: 768px) {
   h5 {
     text-align: left;
     margin-left: 0;
     font-size: 1.3rem;
     }
 
-  @media only screen and (max-width: 768px) {
+  @media(max-width: 768px) {
   h4 {
     text-align: left;
     margin-left: 0;
     font-size: 2.5rem;
     }
 
-  @media only screen and (max-width: 768px) {
+  @media(max-width: 768px) {
   .blog-content-img-container{
     flex-direction: column;
     display: inline;
       }
   
-  @media only screen and (max-width: 768px) {
+  @media(max-width: 768px) {
   p {
     text-align: left justify;
     font-size: 1.4rem;
     line-height: 2rem;
     }
 
-  @media only screen and (max-width: 768px) {
+  @media(max-width: 768px) {
   .container-image {
     display: none;
       }
 
 /* Media Query for 600px */
 
-@media only screen and (max-width: 600px) {
+@media(max-width: 600px) {
   .nav{
     font-size: 12px;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media(max-width: 600px) {
   .container{
     flex-direction: column;
     padding: 4rem;
@@ -455,17 +455,13 @@ img {
     margin-top: -5rem;
     }
 
-  @media only screen and (min-width: 600px) {
+  @media(min-width: 600px) {
   .row1, .row2, .row3 {
     flex-direction: column;
     }
   
-  @media only screen and (max-width: 600px) {
-  .post1, .post2, .post3, .post4, .post5, .post6, .post7, .post8, .post9{
-    display: none;
-  }
   
-  @media only screen and (max-width: 600px) {
+  @media(max-width: 600px) {
   [class=content] {
     text-align: left justify;
     margin-left: 0;
@@ -474,34 +470,32 @@ img {
     
     }
     
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
    h5 {
     text-align: left;
     margin-left: 0;
     font-size: 1.3rem;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media(max-width: 600px) {
   h4 {
     text-align: left;
     margin-left: 0;
     font-size: 2.5rem;
   }
-  @media only screen and (max-width: 600px) {
+  @media(max-width: 600px) {
   p {
     text-align: left justify;
     font-size: 1.4rem;
     line-height: 2rem;
-  
+
   }
 
-  @media only screen and (max-width: 600px) {
+  @media(max-width: 600px) {
   .blog-content-img-container{
     height:70%;
     width: 70%;
     flex-direction: column;
     display: inline;
-        
+    }  
   }
-    
-  * {box-sizing:border-box}
